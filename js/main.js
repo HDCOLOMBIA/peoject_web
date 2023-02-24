@@ -1,10 +1,7 @@
-let owl = $('.owl-carousel');
-
-owl.owlCarousel({
-    items:4,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true
-});
+function accion(){
+    console.log('esta fucianando mi boton');
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('desaparece');
+    }
+}
