@@ -24,9 +24,53 @@
             <a href="#" class="nav-enlace desaparece">Contacto</a>
         </nav>
     </header>
-    <table>
-        
-    </table>
+    <div id="contentForm">
+        <div class="text">
+            <h2 id="subTitle">Formulario de contacto</h2>
+        </div>
+    </div>
+    <div id="contentFormtwo">
+        <h3>Los campos obligatorios van seguidos de * </h3>
+        <hr>
+        <section>
+            <p>
+                <label for="name">
+                    <span>Nombre:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="name" name="username">
+            </p>
+            <p>
+                <label for="mail">
+                    <span>Correo(s) electrónico(s):</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="email" id="email" name="email" multiple>
+            </p>
+            <p>
+                <label for="cel">
+                    <span>Celular o telefono:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="tel" id="tel" name="tel">
+            </p>
+            <p>
+                <label for="insta">
+                    <span>Instagram:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="tel" id="pwd" name="tel">
+            </p>
+            <p>
+                <label for="message">
+                    <span>Mensaje:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <textarea id="msg" name="user_message"></textarea>
+            </p>
+            <p> <button type="submit">Enviar formulario</button> </p>
+        </section>
+    </div>
     <footer>
         <ul>
             <li>Logo</li>

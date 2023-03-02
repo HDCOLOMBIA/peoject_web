@@ -1,7 +1,7 @@
 body {
     background-color: #f6eae0;
     color: rgb(19, 19, 19);
-    font-family:contenido;
+    font-family: contenido;
     font-size: 2vh;
 }
 
@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    font-family:letracaquetas;
+    font-family: letracaquetas;
     color: black;
     overflow: hidden;
     border-right: .15em solid #330c0d;
@@ -50,11 +50,11 @@ h1 {
 }
 
 .nav-enlace:hover {
-    background:#C96558;
+    background: #C96558;
 }
 
 nav {
-    background:#7A0A1B;
+    background: #7A0A1B;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -63,7 +63,7 @@ nav {
 }
 
 .nav-boton {
-    background:#D199A1;
+    background: #D199A1;
     color: #fff;
     padding: 10px 0;
     border: 2px solid #fff;
@@ -97,7 +97,8 @@ nav {
     text-align: center;
 }
 
-.item, img {
+.item,
+img {
     background-color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
@@ -106,26 +107,63 @@ nav {
     width: 100%;
     height: 400px;
 }
-@font-face{
-    font-family:letracaquetas;
-    src:url(HelveticaNeueLTCom-HvExO.ttf)
-}
+
 @font-face {
-    font-family:contenido;
+    font-family: letracaquetas;
+    src: url(HelveticaNeueLTCom-HvExO.ttf)
+}
+
+@font-face {
+    font-family: contenido;
     src: url(HelveticaNeueLTCom-It.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: bara;
-    src:url(HelveticaNeueLTCom-ExO.ttf)
+    src: url(HelveticaNeueLTCom-ExO.ttf)
 }
-ul{
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.tipo{
+
+.tipo {
     padding: 10px 5px;
-    margin:0 auto;
+    margin: 0 auto;
     word-spacing: 5px;
     letter-spacing: 1px;
+}
+
+#contentForm {
+    background-color: #7A0A1B;
+    margin: 2rem 30rem;
+    align-items: center;
+    text-align: center;
+}
+
+#subTitle {
+    color: #fff;
+    font-size: 2rem;
+}
+
+#contentFormtwo {
+    background-color: #7A0A1B;
+    margin-top: -1.9rem;
+    margin-bottom: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    color: #dcc1c1;
+}
+
+#contentFormtwo, h3 {
+    text-align: center;
+    padding-top: 1px;
+}
+
+#contentFormtwo, p {
+    text-align: left;
+    font-size: 1rem;
+    padding: 5px 5px;
 }
