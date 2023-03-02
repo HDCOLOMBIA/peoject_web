@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(231, 80, 80);
-    color: #fff;
+    background-color: #f6eae0;
+    color: rgb(19, 19, 19);
+    font-family:contenido;
+    font-size: 2vh;
 }
 
 .text {
@@ -9,9 +11,10 @@ body {
 
 h1 {
     font-size: 3rem;
-    color: white;
+    font-family:letracaquetas;
+    color: black;
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .15em solid #330c0d;
     white-space: nowrap;
     animation: typing 1.5s steps(20, end) forwards,
         blinking .75s infinite;
@@ -33,34 +36,39 @@ h1 {
     }
 
     to {
-        border-color: orange;
+        border-color: #330c0d;
     }
 }
 
 .nav-enlace {
     display: inline-block;
-    background-color: salmon;
+    background-color: #D199A1;
     color: #fff;
     padding: 10px 30px;
+    font-family: bara;
     text-decoration: none;
 }
 
 .nav-enlace:hover {
-    background: rosybrown;
+    background:#C96558;
 }
 
 nav {
-    background: rebeccapurple;
+    background:#7A0A1B;
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    font-family: bara;
+    font-size: 2vh;
 }
 
 .nav-boton {
-    background: salmon;
+    background:#D199A1;
     color: #fff;
     padding: 10px 0;
     border: 2px solid #fff;
+    font-family: bara;
+    font-size: 2vh;
     display: none;
 }
 
@@ -97,4 +105,27 @@ nav {
     display: flex;
     width: 100%;
     height: 400px;
+}
+@font-face{
+    font-family:letracaquetas;
+    src:url(HelveticaNeueLTCom-HvExO.ttf)
+}
+@font-face {
+    font-family:contenido;
+    src: url(HelveticaNeueLTCom-It.ttf);
+}
+@font-face{
+    font-family: bara;
+    src:url(HelveticaNeueLTCom-ExO.ttf)
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.tipo{
+    padding: 10px 5px;
+    margin:0 auto;
+    word-spacing: 5px;
+    letter-spacing: 1px;
 }
